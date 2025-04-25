@@ -13,6 +13,13 @@ public class SettingQSerpulo extends Mod{
 
     public SettingQSerpulo(){
         Log.info("Loaded Setting Q: Serpulo Constructor.");
+ @Override
+    public void init(){
+        for (Planet planet : Vars.content.planets()) {
+            if (planet != sqserpuloPlanets.psammos) {
+                planet.hiddenItems.addAll(sqserpuloItems.sqserpuloItems);
+            }
+        }
 
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
@@ -28,6 +35,8 @@ public class SettingQSerpulo extends Mod{
     @Override
     public void loadContent(){
         Log.info("Loading Setting Q: Serpulo Content");
+        sqserpuloPlanets.load();
+        sqserpuloItems.load()
     }
 
 }

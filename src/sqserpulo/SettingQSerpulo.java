@@ -14,29 +14,19 @@ public class SettingQSerpulo extends Mod{
 
     public SettingQSerpulo(){
         
-        }
+    }
 
+    @Override
     public void init(){
         for (Planet planet : Vars.content.planets()) {
             if (planet != sqserpuloPlanets.serpuloq) {
                 planet.hiddenItems.addAll(sqserpuloItems.sqserpuloItems);
             }
         }
-        
-        //listen for game load event
-        Events.on(ClientLoadEvent.class, e -> {
-            //show dialog upon startup
-            Time.runTask(10f, () -> {
-                BaseDialog dialog = new BaseDialog("indev");
-                dialog.cont.add("this mod is still in development").row();
-                dialog.show();
-            });
-        });
-    
+    }
 
     @Override
     public void loadContent(){
-        Log.info("Loading Setting Q: Serpulo Content");
         sqserpuloPlanets.load();
         sqserpuloItems.load();
     }

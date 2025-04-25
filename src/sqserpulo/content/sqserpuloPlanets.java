@@ -15,7 +15,7 @@ import mindustry.type.*;
 import mindustry.world.*;
 import mindustry.world.meta.*;
 import sqserpulo.content.*;
-import mindustry.content.Planets.*;
+import mindustry.content.*;
 
 public class sqserpuloPlanets{
     public static Planet

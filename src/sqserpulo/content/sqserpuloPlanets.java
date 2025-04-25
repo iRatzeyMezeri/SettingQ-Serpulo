@@ -18,7 +18,7 @@ import mindustry.world.meta.*;
 public class Planets{
     public static Planet
     sunq,
-    serpuloq,
+    serpuloq;
 
     public static void load(){
         sunq = new Planet("sun (Q)", null, 4f){{

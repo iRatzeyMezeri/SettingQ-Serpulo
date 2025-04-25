@@ -14,6 +14,8 @@ import mindustry.maps.planet.*;
 import mindustry.type.*;
 import mindustry.world.*;
 import mindustry.world.meta.*;
+import sqserpulo.content.*;
+import mindustry.content.Planets.*;
 
 public class Planets{
     public static Planet

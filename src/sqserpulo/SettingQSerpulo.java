@@ -1,4 +1,4 @@
-package example;
+package sqserpulo;
 
 import arc.*;
 import arc.util.*;

@@ -1,4 +1,4 @@
-package mindustry.content;
+package sqserpulo.content;
 
 import arc.func.*;
 import arc.graphics.*;

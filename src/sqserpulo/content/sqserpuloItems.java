@@ -103,8 +103,7 @@ public class sqserpuloItems{
         }};
 
         sqserpuloItems.addAll(
-        scrapq, copperq, leadq, graphiteq, coalq, titaniumq, thoriumq, siliconq, plastaniumq,
-        phaseFabricq, surgeAlloyq, sporePodq, sandq, blastCompoundq, pyratiteq, metaglassq;
+            scrapq, copperq, leadq, graphiteq, coalq, titaniumq, thoriumq, siliconq, plastaniumq, phaseFabricq, surgeAlloyq, sporePodq, sandq, blastCompoundq, pyratiteq, metaglassq
         );
 
     }

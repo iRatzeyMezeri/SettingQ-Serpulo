@@ -16,7 +16,7 @@ public class SettingQSerpulo extends Mod{
  @Override
     public void init(){
         for (Planet planet : Vars.content.planets()) {
-            if (planet != sqserpuloPlanets.psammos) {
+            if (planet != sqserpuloPlanets.serpuloq) {
                 planet.hiddenItems.addAll(sqserpuloItems.sqserpuloItems);
             }
         }
@@ -36,7 +36,7 @@ public class SettingQSerpulo extends Mod{
     public void loadContent(){
         Log.info("Loading Setting Q: Serpulo Content");
         sqserpuloPlanets.load();
-        sqserpuloItems.load()
+        sqserpuloItems.load();
     }
 
 }

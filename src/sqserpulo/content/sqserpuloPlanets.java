@@ -41,7 +41,7 @@ public class sqserpuloPlanets{
         }};
 
        
-        serpuloq = new Planet("serpuloq)", sqserpulo-sunq, 1f, 3){{
+        serpuloq = new Planet("serpuloq)", sunq, 1f, 3){{
             generator = new SerpuloPlanetGenerator();
             meshLoader = () -> new HexMesh(this, 6);
             cloudMeshLoader = () -> new MultiMesh(

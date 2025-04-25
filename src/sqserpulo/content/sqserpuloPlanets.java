@@ -17,7 +17,7 @@ import mindustry.world.meta.*;
 import sqserpulo.content.*;
 import mindustry.content.Planets.*;
 
-public class Planets{
+public class sqserpuloPlanets{
     public static Planet
     sunq,
     serpuloq;

@@ -7,7 +7,7 @@ import mindustry.type.*;
 public class sqserpuloItems{
     public static Item
     scrapq, copperq, leadq, graphiteq, coalq, titaniumq, thoriumq, siliconq, plastaniumq,
-    phaseFabricq, surgeAlloyq, sporePodq, sandq, blastCompoundq, pyratiteq, metaglassq,
+    phaseFabricq, surgeAlloyq, sporePodq, sandq, blastCompoundq, pyratiteq, metaglassq;
 
     public static final Seq<Item> sqserpuloItems = new Seq<>();
 
@@ -104,7 +104,7 @@ public class sqserpuloItems{
 
         sqserpuloItems.addAll(
         scrapq, copperq, leadq, graphiteq, coalq, titaniumq, thoriumq, siliconq, plastaniumq,
-        phaseFabricq, surgeAlloyq, sporePodq, sandq, blastCompoundq, pyratiteq, metaglassq
+        phaseFabricq, surgeAlloyq, sporePodq, sandq, blastCompoundq, pyratiteq, metaglassq;
         );
 
     }

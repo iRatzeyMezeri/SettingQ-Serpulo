@@ -18,16 +18,16 @@ public class SettingQSerpulo extends Mod{
 
     @Override
     public void init(){
-        for (Planet planet : Vars.content.planets()) {
+        /*for (Planet planet : Vars.content.planets()) {
             if (planet != sqserpuloPlanets.serpuloq) {
                 planet.hiddenItems.addAll(sqserpuloItems.sqserpuloItems);
             }
-        }
+        }*/
     }
 
     @Override
     public void loadContent(){
-        sqserpuloPlanets.load();
+        // sqserpuloPlanets.load();
         sqserpuloItems.load();
     }
 

@@ -4,7 +4,7 @@ name: "sqserpulo"
 
 author: "InxieRatZey"
 
-main: "SettingQSerpulo.SettingQSerpulo"
+main: "sqserpulo.SettingQSerpulo"
 
 description: "Overhauls all of serpulo, still indev"
 

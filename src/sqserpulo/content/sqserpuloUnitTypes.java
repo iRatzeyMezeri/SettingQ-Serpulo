@@ -60,8 +60,8 @@ public class sqserpuloUnitTypes {
             health = 150;
             weapons.add(new Weapon("sqserpulo-daggerq-weapon"){{
                 reload = 13f;
-                x = 4f;
-                y = 2f;
+                x = 4.5f;
+                y = 1f;
                 top = false;
                 ejectEffect = Fx.casing1;
                 bullet = new BasicBulletType(2.5f, 9){{

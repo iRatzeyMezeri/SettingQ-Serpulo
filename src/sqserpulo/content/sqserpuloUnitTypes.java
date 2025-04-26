@@ -88,7 +88,7 @@ public class sqserpuloUnitTypes {
             weapons.add(new Weapon("sqserpulo-maceq-flamethrower"){{
                 top = false;
                 shootSound = Sounds.flame;
-                x = 7.5f;
+                x = 5.5f;
                 inaccuracy = 10f;
                 heatColor = Color.valueOf("#ffd37f");
                 shootY = 2f;
@@ -96,8 +96,8 @@ public class sqserpuloUnitTypes {
                 recoil = 1f;
                 ejectEffect = Fx.none;
                 bullet = new BasicBulletType(4.2f, 10f){{
-                    width = 1f;
-                    height = 1f;
+                    width = 3f;
+                    height = 3f;
                     backColor = Color.valueOf("#95abd8");
                     frontColor = Color.valueOf("#ccd9f5");
                     hitSize = 7f;

@@ -1,4 +1,4 @@
-package sqserpulo.content;
+/*package sqserpulo.content;
 
 import arc.func.*;
 import arc.graphics.*;
@@ -78,4 +78,4 @@ public class sqserpuloPlanets{
         }};
     }
 
-}
+}*/

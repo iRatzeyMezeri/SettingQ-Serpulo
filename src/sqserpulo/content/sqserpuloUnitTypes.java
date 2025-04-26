@@ -52,8 +52,9 @@ public class sqserpuloUnitTypes {
   
    public static void load() {
       daggerq = new UnitType("daggerq"){{
-            constructor = UnitEntity::create;
+            constructor = MechUnit::create;
             researchCostMultiplier = 0.5f;
+          
             speed = 0.5f;
             hitSize = 8f;
             health = 150;

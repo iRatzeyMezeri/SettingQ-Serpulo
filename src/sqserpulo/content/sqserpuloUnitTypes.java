@@ -95,7 +95,7 @@ public class sqserpuloUnitTypes {
                 reload = 3f;
                 recoil = 1f;
                 ejectEffect = Fx.none;
-                bullet = new BasicBulletType(4.2f, 10f){{
+                bullet = new BasicBulletType(4.2f, 13f){{
                     width = 3f;
                     height = 3f;
                     backColor = Color.valueOf("#95abd8");

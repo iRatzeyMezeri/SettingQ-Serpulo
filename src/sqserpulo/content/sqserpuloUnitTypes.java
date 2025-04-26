@@ -56,6 +56,7 @@ public class sqserpuloUnitTypes {
             speed = 0.5f;
             hitSize = 8f;
             health = 150;
+            constructor = UserEntity::create;
             weapons.add(new Weapon("daggerq-weapon"){{
                 reload = 13f;
                 x = 4f;

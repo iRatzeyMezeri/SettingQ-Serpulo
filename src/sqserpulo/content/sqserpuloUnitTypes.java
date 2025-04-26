@@ -39,7 +39,7 @@ public class sqserpuloUnitTypes {
     // novaq, pulsarq, quasarq, velaq, ursa,
 
     // Air Assault
-    flareq, // horizonq, zenithq, antumbraq, eclipseq,
+    flareq; // horizonq, zenithq, antumbraq, eclipseq,
 
     // Air Support
     // mono, poly, mega, tera, exa,
@@ -66,8 +66,8 @@ public class sqserpuloUnitTypes {
                     backColor = Color.valueOf("#ab98d2");
                     frontColor = Color.valueOf("#ffffff");
                     trailColor = Color.valueOf("#8c7ea8");
-                    sprite = "sqserpulo-leadbullet-front"
-                    backSprite = "sqserpulo-leadbullet-back"
+                    sprite = "sqserpulo-leadbullet-front";
+                    backSprite = "sqserpulo-leadbullet-back";
                     width = 7f;
                     height = 9f;
                     lifetime = 60f;

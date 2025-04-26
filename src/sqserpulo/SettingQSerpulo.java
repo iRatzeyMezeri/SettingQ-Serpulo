@@ -29,7 +29,7 @@ public class SettingQSerpulo extends Mod{
     public void loadContent(){
         // sqserpuloPlanets.load();
         sqserpuloItems.load();
-        sqserpuloUnits.load();
+        sqserpuloUnitTypes.load();
     }
 
 }

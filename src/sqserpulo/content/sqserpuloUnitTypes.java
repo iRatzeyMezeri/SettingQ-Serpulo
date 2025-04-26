@@ -68,11 +68,49 @@ public class sqserpuloUnitTypes {
                     backColor = Color.valueOf("#ab98d2");
                     frontColor = Color.valueOf("#ffffff");
                     trailColor = Color.valueOf("#8c7ea8");
+                    trailLength = 3.5f;
+                    trailWidth = 1.5f;
                     sprite = "sqserpulo-leadbullet-front";
                     backSprite = "sqserpulo-leadbullet-back";
                     width = 7f;
                     height = 9f;
                     lifetime = 60f;
+                }};
+            }});
+        }};
+       maceq = new UnitType("maceq"){{
+            constructor = MechUnit::create;
+            speed = 0.5f;
+            hitSize = 10f;
+            health = 550;
+            armor = 4f;
+
+            immunities.add(StatusEffects.burning);
+
+            weapons.add(new Weapon("sqserpulo-maceq-flamethrower"){{
+                top = false;
+                shootSound = Sounds.flame;
+                shootY = 2f;
+                reload = 3f;
+                recoil = 1f;
+                ejectEffect = Fx.none;
+                bullet = new BulletType(4.2f, 10f){{
+                    width = 1f;
+                    height = 1f;
+                    backColor = Color.valueOf("#95abd8");
+                    frontColor = Color.valueOf("#ccd9f5");
+                    hitSize = 7f;
+                    lifetime = 13f;
+                    pierce = true;
+                    pierceBuilding = true;
+                    pierceCap = 2;
+                    statusDuration = 60f * 4;
+                    shootEffect = Fx.shootSmallFlame;
+                    hitEffect = Fx.hitFlameSmall;
+                    despawnEffect = Fx.none;
+                    status = StatusEffects.burning;
+                    keepVelocity = false;
+                    hittable = false;
                 }};
             }});
         }};

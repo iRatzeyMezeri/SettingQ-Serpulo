@@ -52,11 +52,11 @@ public class sqserpuloUnitTypes {
   
    public static void load() {
       daggerq = new UnitType("daggerq"){{
+            constructor = UnitEntity::create;
             researchCostMultiplier = 0.5f;
             speed = 0.5f;
             hitSize = 8f;
             health = 150;
-            constructor = UserEntity::create;
             weapons.add(new Weapon("daggerq-weapon"){{
                 reload = 13f;
                 x = 4f;

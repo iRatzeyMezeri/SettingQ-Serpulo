@@ -88,7 +88,7 @@ public class sqserpuloUnitTypes {
             weapons.add(new Weapon("sqserpulo-maceq-flamethrower"){{
                 top = false;
                 shootSound = Sounds.flame;
-                x = 5.5f;
+                x = 5.8f;
                 inaccuracy = 10f;
                 heatColor = Color.valueOf("#ffd37f");
                 shootY = 2f;

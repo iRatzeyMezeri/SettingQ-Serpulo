@@ -68,8 +68,6 @@ public class sqserpuloUnitTypes {
                     backColor = Color.valueOf("#ab98d2");
                     frontColor = Color.valueOf("#ffffff");
                     trailColor = Color.valueOf("#8c7ea8");
-                    trailLength = 3.5f;
-                    trailWidth = 1.5f;
                     sprite = "sqserpulo-leadbullet-front";
                     backSprite = "sqserpulo-leadbullet-back";
                     width = 7f;
@@ -94,7 +92,7 @@ public class sqserpuloUnitTypes {
                 reload = 3f;
                 recoil = 1f;
                 ejectEffect = Fx.none;
-                bullet = new BulletType(4.2f, 10f){{
+                bullet = new BasicBulletType(4.2f, 10f){{
                     width = 1f;
                     height = 1f;
                     backColor = Color.valueOf("#95abd8");
